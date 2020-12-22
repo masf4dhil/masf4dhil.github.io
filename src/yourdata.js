@@ -12,6 +12,9 @@ import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
 
+//portofolio
+import nusa from "./images/nk1.png"
+
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
@@ -20,18 +23,18 @@ export default {
   name: "Fadhil",
   headerTagline: [
     //Line 1 For Header
-    "Building digital",
+    "Lets get in touch",
     //Line 2 For Header
-    "products, brands,",
+    "Im Software Developer",
     //Line 3 For Header
     "and experience",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Im working with newest front-end framework like React Native and React. Glad to lern Express and GO. Cant wait to be a touch with you!",
 
   //Contact Email
-  contactEmail: "hello@chetanverma.com",
+  contactEmail: "fadhil.alfatayah@gmail.com",
 
   // End Header Details -----------------------
 
@@ -43,8 +46,7 @@ export default {
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: nusa,
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     },
@@ -120,7 +122,7 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Hi guys, nice to meet you! , Im software developer interested in Mobile Apps. Im currently work at PT Bussan Auto Finance. Im focused to build product with react native. Happy to lern the new thing about tech",
   aboutParaTwo:
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   aboutParaThree:

@@ -9,13 +9,13 @@ const Header = () => {
         <div className="header-wrapper">
           <Fade bottom>
             <h2>
-              Hi, I'm {data.name}{" "}
+              Hi there, {data.name} here!{" "}
               <span role="img" aria-label="Emoji">
                 👋
               </span>
             </h2>
           </Fade>
-          <Fade bottom cascade>
+          {/* <Fade bottom cascade>
             <div className="heading-wrapper">
               <h1>
                 {data.headerTagline[0]
@@ -35,7 +35,7 @@ const Header = () => {
                   : "and experience"}
               </h1>
             </div>
-          </Fade>
+          </Fade> */}
           <Fade bottom>
             <p>{data.headerParagraph}</p>
           </Fade>
@@ -46,7 +46,7 @@ const Header = () => {
               }`}
               className="primary-btn"
             >
-              CONNECT WITH ME
+              Here My resume !
             </a>
           </Fade>
         </div>
