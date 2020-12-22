@@ -4,6 +4,7 @@
   "description": "Portfolio Template For Awesome Peoples",
   "version": "0.1.0",
   "author": "Chetan Verma <hello@chetanverma.com>",
+  "homepage": "https://masf4dhil.github.io",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
@@ -31,6 +32,8 @@
   ],
   "license": "0BSD",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
