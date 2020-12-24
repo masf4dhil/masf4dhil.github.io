@@ -14,7 +14,7 @@ const Work = () => {
           </Fade>
 
           <div className="grid">
-            <Fade bottom cascade>
+            <Fade bottom>
               {data.projects.map(project => (
                 <Card
                   key={project.id}

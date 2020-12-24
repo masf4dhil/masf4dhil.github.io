@@ -3,8 +3,8 @@ import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
 import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+import express from "./images/express.svg"
+import mongodb from "./images/mongodb.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -13,7 +13,7 @@ import twitterIcon from "./images/twitter.png"
 import linkindIcon from "./images/linkdin.svg"
 
 //portofolio
-import nusa from "./images/nk1.jpg"
+import nusa from "./images/nusakamera.jpg"
 import stay from "./images/stay.jpg"
 import mobile from "./images/mobile.jpg"
 
@@ -107,38 +107,32 @@ export default {
     {
       id: 1,
       img: htmlIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "80%",
     },
     {
       id: 2,
       img: cssIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "70%",
     },
     {
       id: 3,
       img: jsIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "80%",
     },
     {
       id: 4,
       img: reactIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "75%,",
     },
     {
       id: 5,
-      img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: express,
+      para: "75%",
     },
     {
       id: 6,
-      img: codeIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      img: mongodb,
+      para: "70%,",
     },
   ],
 

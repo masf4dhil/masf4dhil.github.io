@@ -1,26 +1,22 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
-import imgProfile from "../images/1.jpg"
-
+// import imgProfile from "../images/1.jpg"
+import imgProfile from "../images/profile.jpg"
 const About = () => {
   return (
     <div className="secion" id="about">
       <div className="container">
         <div className="about-section">
           <div className="content">
-            <Fade bottom cascade>
+            <Fade bottom>
               <h1>About Me</h1>
+              <p>{data.aboutParaOne}</p>
             </Fade>
-            <p>
-              {data.aboutParaOne}
-              <br></br>
-              <br></br>
-            </p>
           </div>
           <div className="image-wrapper">
             <Fade bottom cascade>
-              <img src={imgProfile} width="300" height="480" alt="about" />
+              <img src={imgProfile} alt="about" />
             </Fade>
           </div>
         </div>
