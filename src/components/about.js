@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
-import imgProfile from "../images/1.png"
+import imgProfile from "../images/1.jpg"
 
 const About = () => {
   return (
@@ -16,10 +16,6 @@ const About = () => {
               {data.aboutParaOne}
               <br></br>
               <br></br>
-              {/* {data.aboutParaTwo}
-              <br></br>
-              <br></br>
-              {data.aboutParaThree} */}
             </p>
           </div>
           <div className="image-wrapper">

@@ -13,7 +13,9 @@ import twitterIcon from "./images/twitter.png"
 import linkindIcon from "./images/linkdin.svg"
 
 //portofolio
-import nusa from "./images/nk1.png"
+import nusa from "./images/nk1.jpg"
+import stay from "./images/stay.jpg"
+import mobile from "./images/mobile.jpg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -31,7 +33,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "Im working with newest front-end framework like React Native and React. Glad to lern Express and GO. Cant wait to be a touch with you!",
+    "Im working with newest front-end framework like React Native and React. Love to lern React and Express. Cant wait to be a touch with you!",
 
   //Contact Email
   contactEmail: "fadhil.alfatayah@gmail.com",
@@ -44,7 +46,7 @@ export default {
       id: 1, //DO NOT CHANGE THIS (Please)😅
       title: "Nusa Kamera", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Web Apps to provide information, product, booking and estimate order in rental camera ", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc: nusa,
       //Project URL - Add Your Project Url Here
@@ -52,60 +54,24 @@ export default {
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "BAF Mobile", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Mobile apps to help customers submit credit product, track the installment credit and estimatation credit product", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: mobile,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "",
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "Staycation", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Web Apps to provide admin booking hotel to book hotel, check status room and validation payment for rent", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: stay,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "",
     },
-    {
-      id: 4, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Four", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      id: 5, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Five", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      id: 6, //DO NOT CHANGE THIS (Please)😅
-      title: "Project Six", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-
     /*
     If You Want To Add More Project just Copy and Paste This At The End (Update the id Respectively)
     ,{

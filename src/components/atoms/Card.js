@@ -11,7 +11,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
           ")",
       }}
     >
-      <div className="content">
+      <div className="content" style={{ backgroundColor: "black" }}>
         <h1 className="header">{heading}</h1>
         <p className="text">{paragraph}</p>
         <a
