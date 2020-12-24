@@ -8,9 +8,9 @@ import codeIcon from "./images/code.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import twitterIcon from "./images/twitter.png"
+import linkindIcon from "./images/linkdin.svg"
 
 //portofolio
 import nusa from "./images/nk1.png"
@@ -42,13 +42,13 @@ export default {
   projects: [
     {
       id: 1, //DO NOT CHANGE THIS (Please)😅
-      title: "Project One", //Project Title - Add Your Project Title Here
+      title: "Nusa Kamera", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc: nusa,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://afifbasya.github.io/static/media/cahaya.9f26cf26.webp",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
@@ -189,22 +189,20 @@ export default {
   contactSubHeading: "Let's create your next experience together",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
+    { img: githubIcon, url: "https://github.com/masf4dhil" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
+      img: linkindIcon,
+      url: "https://www.linkedin.com/in/fadhillah-alfatayah-1b5976130/",
     },
     {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
+      img: twitterIcon,
+      url: "https://twitter.com/masf4dhil",
     },
     {
       img: instagramIcon,
-      url: "https://www.instagram.com/",
+      url: "https://www.instagram.com/masf4dhil/",
     },
   ],
 
   // End Contact Section ---------------
 }
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com

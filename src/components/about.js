@@ -23,8 +23,9 @@ const About = () => {
             </p>
           </div>
           <div className="image-wrapper">
-            {/* <img src={data.aboutImage} alt="about"></img> */}
-            <img src={imgProfile} width="300" height="480" alt="about" />
+            <Fade bottom cascade>
+              <img src={imgProfile} width="300" height="480" alt="about" />
+            </Fade>
           </div>
         </div>
       </div>
