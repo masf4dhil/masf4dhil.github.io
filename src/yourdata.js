@@ -50,7 +50,7 @@ export default {
       //Project Image - Add Your Project Image Here
       imageSrc: nusa,
       //Project URL - Add Your Project Url Here
-      url: "https://afifbasya.github.io/static/media/cahaya.9f26cf26.webp",
+      url: "https://www.nusakamera.com/",
     },
     {
       id: 2, //DO NOT CHANGE THIS (Please)😅
@@ -60,7 +60,8 @@ export default {
       //Project Image - Add Your Project Image Here
       imageSrc: mobile,
       //Project URL - Add Your Project Url Here
-      url: "",
+      url:
+        "https://play.google.com/store/apps/details?id=com.id.bussanautofinance&hl=in&gl=US",
     },
     {
       id: 3, //DO NOT CHANGE THIS (Please)😅
@@ -70,7 +71,7 @@ export default {
       //Project Image - Add Your Project Image Here
       imageSrc: stay,
       //Project URL - Add Your Project Url Here
-      url: "",
+      url: "https://admin-book-hotel.herokuapp.com/",
     },
     /*
     If You Want To Add More Project just Copy and Paste This At The End (Update the id Respectively)
