@@ -16,6 +16,7 @@ import linkindIcon from "./images/linkdin.svg"
 import nusa from "./images/nusakamera.jpg"
 import stay from "./images/stay.jpg"
 import mobile from "./images/mobile.jpg"
+import agro from "./images/global.jpg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -73,16 +74,26 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "https://admin-book-hotel.herokuapp.com/",
     },
-    /*
-    If You Want To Add More Project just Copy and Paste This At The End (Update the id Respectively)
-    ,{
-        id: 5,
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
+    {
+     
+    },
+    {
+      id: 4, //DO NOT CHANGE THIS (Please)😅
+      title: "Global Agro Coco", //Project Title - Add Your Project Title Here
+      para:
+        "Landing Page Web to provide information about PT Global Agro Coco to sell them products",
+      //Project Image - Add Your Project Image Heres
+      imageSrc: agro,
+      //Project URL - Add Your Project Url Here
+      url: "https://globalagrococo.com/",
+    },
+    {
+     
+    },
+   
+
+
+ 
   ],
 
   // End Work Section -----------------------
