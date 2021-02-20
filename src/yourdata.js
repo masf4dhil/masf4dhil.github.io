@@ -22,7 +22,7 @@ import linkindIcon from "./images/linkdin.svg"
 const mobile = "https://user-images.githubusercontent.com/23058601/108582730-97c49280-7367-11eb-9473-50c3c6e11fba.jpg"
 const nusa = "https://user-images.githubusercontent.com/23058601/108582930-becf9400-7368-11eb-8d1e-7280d86d7437.jpg";
 const stay = "https://user-images.githubusercontent.com/23058601/108582920-afe8e180-7368-11eb-96c9-9293b0e58b96.jpg";
-const agro = "https://user-images.githubusercontent.com/23058601/108582952-d575eb00-7368-11eb-8382-1d85197d169b.jpg";
+const agro = "https://user-images.githubusercontent.com/23058601/108583283-03f4c580-736b-11eb-8dc2-b03faf1859f1.jpg";
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
