@@ -1,8 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
-// import imgProfile from "../images/1.jpg"
-import imgProfile from "../images/profile.jpg"
+const imgProfile = "https://user-images.githubusercontent.com/23058601/108582879-744e1780-7368-11eb-94e3-27204fc70dd3.jpg"
 const About = () => {
   return (
     <div className="secion" id="about">

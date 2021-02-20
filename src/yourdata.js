@@ -13,10 +13,16 @@ import twitterIcon from "./images/twitter.png"
 import linkindIcon from "./images/linkdin.svg"
 
 //portofolio
-import nusa from "./images/nusakamera.jpg"
-import stay from "./images/stay.jpg"
-import mobile from "./images/mobile.jpg"
-import agro from "./images/global.jpg"
+// import nusa from "./images/nusakamera.jpg"
+// import stay from "./images/stay.jpg"
+// import mobile from "./images/mobile.jpg"
+// import agro from "./images/global.jpg"
+
+// image source
+const mobile = "https://user-images.githubusercontent.com/23058601/108582730-97c49280-7367-11eb-9473-50c3c6e11fba.jpg"
+const nusa = "https://user-images.githubusercontent.com/23058601/108582930-becf9400-7368-11eb-8d1e-7280d86d7437.jpg";
+const stay = "https://user-images.githubusercontent.com/23058601/108582920-afe8e180-7368-11eb-96c9-9293b0e58b96.jpg";
+const agro = "https://user-images.githubusercontent.com/23058601/108582952-d575eb00-7368-11eb-8382-1d85197d169b.jpg";
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
